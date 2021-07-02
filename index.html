@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <div id="button">
+      <a href="login.html"
+        ><input type="submit" value="Login" id="login-form-submit"
+      /></a>
+    </div> -->
+    <header id="header">
+      <input id="name" type="text" name="fname" placeholder="Name" />
+      <div id="text-box">
+        <input
+          id="textBox-1"
+          type="text"
+          name="Fill"
+          placeholder="TextBox1"
+          onchange="changeEvent1(event)"
+        />
+        <input
+          id="textBox-2"
+          type="text"
+          name="Fill"
+          placeholder="TextBox2"
+          onchange="changeEvent2(event)"
+        />
+      </div>
+      <button class="logout">Logout</button>
+    </header>
+    <main>
+      <div id="vw-1">
+        <iframe id="displayURL-1" src="" align="left" frameborder="0"></iframe>
+      </div>
+      <div id="vw-2">
+        <iframe id="displayURL-2" src="" align="right" frameborder="0"></iframe>
+      </div>
+    </main>
+    <script src="src.js"></script>
+  </body>
+</html>
